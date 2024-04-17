@@ -1,142 +1,467 @@
-.container{
+.landing_page{
     background-color: white;
     padding: 14px;
-    box-shadow:  22px 22px rgb(141, 217, 227);
+    box-shadow:  18px 12px rgb(141, 217, 227); 
     object-fit: contain;
     min-width: fit-content;
-    width: 100%;
+    width: 90%;
+
     
 
 }
 .body{
     background-color: rgb(226, 243, 248);
-    padding: 10%;
+    padding: 5%;
 }
 .navbar{
    display: grid; 
    grid-template-columns: repeat(8 , 1fr);
     gap: 2%;
+    margin-bottom: 7%;
 }
-.title{
+.company{
     font-size: larger;
 }
-.red{ 
+.skillhero{ 
     font-size: larger;
     color: red;
 }
-.redsmall{
+.home{
     color: red;
-    font-size: medium;
+    font-size: large;
+    text-decoration: none;
 }
-.silvertext{
+.programs{
     color: gray;
-    font-size: medium;
+    font-size: large;
+    text-decoration: none;
 }
-.redborder{
+.login{
     border: solid red 2px ;
     border-radius: 10px;
     color: red;
     padding: 10px;
+    text-decoration: none;
 }
-.redbackground{
+
+.signup{
     color: white;
     background-color: red;
     border-radius: 10px;
     padding: 10px;
-    box-shadow:  10px,10px lightcoral;
+    text-decoration: none;
+
+
 }
-.div1{
-    display: flex;
-    gap: 5%;
+.landing_page_details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 15px;
+    margin-bottom: 3%;
+    margin-bottom: 2%;
+    gap: 9%;
 }
-.blacklarge{
+.skills{
     font-size: 3ch;
     color: rgb(7, 7, 73);
+    font-size: 400%;
 }
-.redtextlarge{
+.company_level{
     font-size: 100%;
     color: red;
 }
-.silvermedium{
-    font-size: larger;
+.landing_page_text{
+    font-size: 150%;
     color: gray;
 }
 .font{
     font-size: 200%;
 }
-.bigbutton{
+.input{
     color: gray;
     font-size: small;
-    padding: 10px;
+    padding: 20px;
     width: 60%;
     border: solid 1px gray;
     border-radius: 15px;
     
 }
+.subscribe_button{
+    color: white;
+    background-color: red;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow:  10px,10px lightcoral;
+    width: 30%;
+    transform: translate(-80%,-1%);
+    
+}
+.subscription{
+    color: white;
+    text-decoration: none;
+
+}
 .margins{
     margin-right: 3%;
 }
-.logo{
+.logo_images{
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
     gap: 4%;
 }
 .logos{
-    width: 75%;
-    height: 60%;
+    width: 55%;
+    height: 40%;
 }
-.image{
-    width: 190%;
+.skillheroimage{
+    width: 60%;
+
 }
-.buttons{
+/* .buttons{
     display: flex;
     gap: 1%;
+} */
+.company_logo{
+    width: 40%;
 }
 @media screen and (min-width:250px) and (max-width:400px) {
-  .navbar{
-   display: flex; 
-   gap: 12px;
-   flex-direction: column;
+    .landing_page{
+        background-color: white;
+        padding: 14px;
+        box-shadow:  18px 12px rgb(141, 217, 227); 
+        object-fit: contain;
+        min-width: fit-content;
+        width: 50%;
     
-} 
-.div1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.image{
-    width: 100%;
-}
-
-.logos{
-    width: 75%;
-    height: 60%;
-}
-
-}
-@media screen and (min-width:400px) and (max-width:900px) {
-  .navbar{
-   display: flex; 
-   flex-direction: column;
-   gap: 12px;
+        
     
-} 
-.div1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.image{
-    width: 100%;
-}
+    }
+    .body{
+        background-color: rgb(226, 243, 248);
+        padding: 0%;
+    }
+    .navbar{
+       display: grid; 
+       grid-template-columns: repeat(1 , 7fr);
+        gap: 7%;
+        margin-bottom: 60%;
+    }
+    .landing_page_details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 15px;
+        margin-bottom: 3%;
+        margin-bottom: 2%;
+        gap: 9%;
+    }
+    .skills{
+        font-size: 3ch;
+        color: rgb(7, 7, 73);
+        font-size: 200%;
+    }
+    .company_level{
+        font-size: 100%;
+        color: red;
+    }
+    .landing_page_text{
+        font-size: 100%;
+        color: gray;
+    }
+    .font{
+        font-size: 200%;
+    }
+    .input{
+        color: gray;
+        font-size: small;
+        padding: 20px;
+        width: 50%;
+        border: solid 1px gray;
+        border-radius: 15px;
+        margin-bottom: 10%;
+        
+    }
+    .subscribe_button{
+        color: white;
+        background-color: red;
+        border-radius: 14px;
+        padding: 15px;
+        box-shadow:  10px,10px lightcoral;
+        width: 50%;
+    
+        
+    }
+    .subscription{
+        color: white;
+        text-decoration: none;
+    
+    }
+    .margins{
+        margin-right: 3%;
+    }
+    .logo_images{
+        display: grid;
+        grid-template-columns: repeat(2 , 3fr);
+        gap: 4%;
+    }
+    .logos{
+        width: 25%;
+        height: 40%;
+    }
+    .skillheroimage{
+        width: 60%;
+        margin-bottom: 18%;
+    
+    }
+    
+    .company_logo{
+        width: 20%;
+    }
 
-.logo{
-    display: grid;
-    grid-template-columns: repeat(5 , 1fr);
-    gap: 4%;
 }
+@media screen and (min-width:400px) and (max-width:700px) {
+    .landing_page{
+        background-color: white;
+        padding: 14px;
+        box-shadow:  18px 12px rgb(141, 217, 227); 
+        object-fit: contain;
+        min-width: fit-content;
+        width: 90%;
+    
+        
+    
+    }
+    .body{
+        background-color: rgb(226, 243, 248);
+        padding: 5%;
+    }
+    .navbar{
+       display: grid; 
+       grid-template-columns: repeat(3 , 3fr);
+        gap: 16%;
+        margin-bottom: 7%;
+    }
+    .company{
+        font-size: larger;
+    }
+    .skillhero{ 
+        font-size: larger;
+        color: red;
+    }
+    
+    
+    .login{
+        border: solid red 2px ;
+        border-radius: 10px;
+        color: red;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .signup{
+        color: white;
+        background-color: red;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+    
+    
+    }
+    .landing_page_details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 15px;
+        margin-bottom: 3%;
+        margin-bottom: 2%;
+        gap: 9%;
+    }
+    .skills{
+        font-size: 3ch;
+        color: rgb(7, 7, 73);
+        font-size: 400%;
+    }
+    .company_level{
+        font-size: 100%;
+        color: red;
+    }
+    .landing_page_text{
+        font-size: 150%;
+        color: gray;
+    }
+    .font{
+        font-size: 200%;
+    }
+    .input{
+        color: gray;
+        font-size: small;
+        padding: 20px;
+        width: 60%;
+        border: solid 1px gray;
+        border-radius: 15px;
+        
+    }
+    .subscribe_button{
+        color: white;
+        background-color: red;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow:  10px,10px lightcoral;
+        width: 30%;
+        
+    
+        
+    }
+    .subscription{
+        color: white;
+        text-decoration: none;
+        align-items: center;
+    
+    }
+    .margins{
+        margin-right: 3%;
+    }
+    .logo_images{
+        display: grid;
+        grid-template-columns: repeat(5 , 1fr);
+        gap: 4%;
+    }
+    .logos{
+        width: 55%;
+        height: 40%;
+    }
+    .skillheroimage{
+        width: 60%;
+    
+    }
+    
+    .company_logo{
+        width: 50%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:990px) {
+    .landing_page{
+        background-color: white;
+        padding: 14px;
+        box-shadow:  18px 12px rgb(141, 217, 227); 
+        object-fit: contain;
+        min-width: fit-content;
+        width: 90%;
+    
 
-.logos{
-    width: 85%;
-    height: 70%;
+    }
+    .body{
+        background-color: rgb(226, 243, 248);
+        padding: 5%;
+    }
+    .navbar{
+       display: grid; 
+       grid-template-columns: repeat(8 , 1fr);
+        gap: 2%;
+        margin-bottom: 7%;
+    }
+    .company{
+        font-size: larger;
+    }
+    .skillhero{ 
+        font-size: larger;
+        color: red;
+    }
+    .home{
+        color: red;
+        font-size: large;
+        text-decoration: none;
+    }
+    .programs{
+        color: gray;
+        font-size: large;
+        text-decoration: none;
+    }
+    .login{
+        border: solid red 2px ;
+        border-radius: 10px;
+        color: red;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .signup{
+        color: white;
+        background-color: red;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+    
+    
+    }
+    .landing_page_details{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 15px;
+        margin-bottom: 3%;
+        margin-bottom: 2%;
+        gap: 9%;
+    }
+    .skills{
+        font-size: 3ch;
+        color: rgb(7, 7, 73);
+        font-size: 400%;
+    }
+    .company_level{
+        font-size: 100%;
+        color: red;
+    }
+    .landing_page_text{
+        font-size: 150%;
+        color: gray;
+    }
+    .font{
+        font-size: 200%;
+    }
+    .input{
+        color: gray;
+        font-size: small;
+        padding: 20px;
+        width: 60%;
+        border: solid 1px gray;
+        border-radius: 15px;
+        
+    }
+    .subscribe_button{
+        color: white;
+        background-color: red;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow:  10px,10px lightcoral;
+        width: 30%;
+        transform: translate(-80%,-1%);
+        
+    }
+    .subscription{
+        color: white;
+        text-decoration: none;
+    
+    }
+    .margins{
+        margin-right: 3%;
+    }
+    .logo_images{
+        display: grid;
+        grid-template-columns: repeat(5 , 1fr);
+        gap: 4%;
+    }
+    .logos{
+        width: 55%;
+        height: 40%;
+    }
+    .skillheroimage{
+        width: 60%;
+    
+    }
+    /* .buttons{
+        display: flex;
+        gap: 1%;
+    } */
+    .company_logo{
+        width: 40%;
+    }
 }
-
-}
+  
