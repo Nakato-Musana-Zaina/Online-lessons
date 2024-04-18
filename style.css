@@ -18,7 +18,9 @@
    grid-template-columns: repeat(8 , 1fr);
     gap: 2%;
     margin-bottom: 7%;
+    
 }
+
 .company{
     font-size: larger;
 }
@@ -124,6 +126,7 @@
 .company_logo{
     width: 40%;
 }
+
 @media screen and (min-width:250px) and (max-width:400px) {
     .landing_page{
         background-color: white;
@@ -146,6 +149,8 @@
         gap: 7%;
         margin-bottom: 60%;
     }
+    
+
     .landing_page_details{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -216,6 +221,22 @@
     .company_logo{
         width: 20%;
     }
+
+
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
+      }
+      
+    
+
+    
 
 }
 @media screen and (min-width:400px) and (max-width:700px) {
@@ -447,6 +468,8 @@
         display: grid;
         grid-template-columns: repeat(5 , 1fr);
         gap: 4%;
+        
+        
     }
     .logos{
         width: 55%;
@@ -454,12 +477,10 @@
     }
     .skillheroimage{
         width: 60%;
+        margin-bottom: 60%;
     
     }
-    /* .buttons{
-        display: flex;
-        gap: 1%;
-    } */
+    
     .company_logo{
         width: 40%;
     }
