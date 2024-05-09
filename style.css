@@ -169,7 +169,7 @@
      }
      .navbar_buttons{
          display: flex;
-         margin-left: 29%;
+         margin-left: 15%;
          gap: 98%;
      
      }
@@ -178,7 +178,7 @@
      }
      .programs{
          display: flex;
-         gap: 40%;
+         gap: 30%;
          color: gray;
          font-size: large;
          text-decoration: none;
@@ -286,14 +286,14 @@
       
      }
      .navbar_buttons{
-         /* display: flex;
+          display: flex;
          flex-wrap: wrap;
-         column-gap: 20%; */
+         column-gap: 10%; 
      
      }
      .programs{
          display: flex;
-         gap: 40%;
+         gap: 30%;
          color: gray;
          font-size: large;
          text-decoration: none;
