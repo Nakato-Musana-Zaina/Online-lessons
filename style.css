@@ -337,14 +337,14 @@
     .skills{
         font-size: 3ch;
         color: rgb(7, 7, 73);
-        font-size: 400%;
+        font-size: 250%;
     }
     .company_level{
-        font-size: 100%;
+        font-size: 80%;
         color: red;
     }
     .landing_page_text{
-        font-size: 150%;
+        font-size: 100%;
         color: gray;
     }
     .font{
@@ -366,8 +366,6 @@
         padding: 20px;
         box-shadow:  10px,10px lightcoral;
         width: 30%;
-        
-    
         
     }
     .subscription{
@@ -428,8 +426,9 @@
      }
      .navbar_buttons{
          display: flex;
-         margin-left: 29%;
+         margin-left: 15%;
          gap: 98%;
+         margin-bottom: 5%;
      
      }
      .programs{
@@ -473,6 +472,7 @@
         color: red;
         padding: 10px;
         text-decoration: none;
+        margin-bottom: 6%;
     }
     
     .signup{
