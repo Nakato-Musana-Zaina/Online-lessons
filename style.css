@@ -12,7 +12,7 @@
 .programs ul{
     list-style-type: none;
     display: flex;
-    gap: 12%;
+    gap: 15%;
 }
 .body{
     background-color: rgb(226, 243, 248);
@@ -257,6 +257,11 @@
         width: 20%;
         margin-top: 30%;
     }
+    .programs ul{
+        list-style-type: none;
+        display: block;
+        gap: 15%;
+    }
 
 }
 @media screen and (min-width:401px) and (max-width:700px) {
@@ -267,9 +272,7 @@
         object-fit: contain;
         min-width: fit-content;
         width: 90%;
-    
-        
-    
+
     }
     .body{
         background-color: rgb(226, 243, 248);
@@ -400,9 +403,11 @@
         display: flex;
         gap: 12%;
     }
-    .programs ul li{
-
-    }
+    .programs ul{
+        list-style-type: none;
+        display: block;
+        gap: 10%;
+}
 }
 @media screen and (min-width:701px) and (max-width:990px) {
     .landing_page{
@@ -550,5 +555,9 @@
     .company_logo{
         width: 40%;
     }
+    .programs ul{
+        list-style-type: none;
+        display: flex;
+        gap: 15%;}
 }
   
